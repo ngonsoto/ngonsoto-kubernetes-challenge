@@ -1,0 +1,6 @@
+---
+clusterName: "elasticsearch"
+nodeGroup: "master"
+
+replicas: 2
+minimumMasterNodes: 2

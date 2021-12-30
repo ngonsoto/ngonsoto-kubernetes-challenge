@@ -1,0 +1,2 @@
+#Copy this file to 'terraform.tfvars' and uncomment the variables
+#token_api = "MY_TOKEN_API"
