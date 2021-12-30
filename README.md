@@ -16,7 +16,7 @@ The official documentation details the steps [here](https://docs.digitalocean.co
 - Click on generate a new token.
 - Give a name to the token.
 - Copy the new generated token.
-- Execute `doctl auth init` con your local console.
+- Execute `doctl auth init` on your local console.
 - Enter the token.
 
 ### Deploying the stack
@@ -62,4 +62,4 @@ terraform destroy
 ## Final thoughts
 The challenge idea was great to try and test the provider (DigitalOcean) and the deployment of the Kubernetes with Helm. Had some previous experience with Terraform, AWS and Grafana as a monitoring solution so I got to experiment with new tools with this challenge.
 
-I found really easy the process of deploying Kubernetes with DigitalOcean compared to AWS for example, and probably will use it again in the future for personal projects. :)
+I found the process of deploying Kubernetes with DigitalOcean really easy compared to AWS, and probably will use it again in the future for personal projects. :)
