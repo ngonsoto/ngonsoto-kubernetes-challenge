@@ -51,7 +51,7 @@ fluentbit-fluent-bit-xxxx       1/1     Running   0          5m
 kibana-kibana-xxxx-xxxx         1/1     Running   0          5m
 ```
 - Check the logs at `http://x.x.x.x/app/discover` replacing "x.x.x.x" with the output IP.
-- Create and Index Pattern with name `logstash-*` and timestamp `@timestamp`.
+- Create an Index Pattern with name `logstash-*` and timestamp `@timestamp`.
 - Go back to "Discover" section and view the aggregated logs.
 
 Once finished, do not forget to destroy the infrastructure to avoid unwanted fees.
